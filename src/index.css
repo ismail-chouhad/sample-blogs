@@ -1,0 +1,139 @@
+*{
+  margin: 0%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #333;
+}
+button {
+  cursor: pointer;
+  color: salmon;
+  padding: 7px;
+  margin-left: 130px;
+  background-color: #F2F2F2;
+  border: 1px #f1bfbf solid;
+  border-radius: 15px;
+}
+.navbar h1 {
+  color: salmon;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0% auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar .links a {
+  text-decoration: none;
+  margin-left: 16px;
+  padding: 6px;
+}
+.navbar .links a:hover {
+  color: salmon;
+}
+.Content {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.blog-div {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 20px;
+  padding: 10px ;
+  margin: 20px 0px;
+  border-bottom: 1px solid #F2F2F2;
+}
+p {
+  max-width: 110px;
+}
+.delete {
+  cursor: pointer;
+}
+.div-grid-2 {
+  text-align: center;
+  padding-top: 11%;
+}
+.blog-div:hover {
+  padding-bottom: 10px;
+  box-shadow: 1px 3px 5px rgb(51, 51, 51,0.1);
+}
+.blog-div h2 {
+  color: salmon;
+}
+
+/* Blog details component */
+
+.blog-details article h2 {
+  margin-bottom: 10px;
+  color: salmon;
+}
+.blog-details article h5 {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.blog-details article div {
+ display: block;
+ text-align: justify;
+ max-width: 600px;
+ margin: 0% auto;
+ line-height: 25px;
+}
+
+/* Create blog component */
+.create-blogs *{
+  display: block;
+  width: 600px;
+}
+.create-blogs h1 {
+  width: max-content;
+  margin: 0px auto 30px;
+}
+.create-form label {
+  font-size: x-large;
+  font-weight: bold;
+  margin: 0px auto 15px;
+}
+.create-form input {
+  font-size: large;
+  margin: 0px auto 30px;
+  height: 30px;
+}
+.create-form textarea {
+  font-size: large;
+  min-width: 600px;
+  max-width: 600px;
+  margin: 0px auto 30px;
+  height: 100px;
+}
+.create-form select {
+  margin: 0% auto 30px;
+  height: 30px;
+  font-size: larger ;
+  font-weight: 700;
+}
+.create-form button {
+  margin: 0% auto;
+  width: 150px;
+  background-color: salmon;
+  border-radius: 15px;
+  border: none;
+  color: #F2F2F2;
+  height: 50px;
+  font-size: 25px ;
+  font-weight: 700;
+  transition: 0.5s;
+  box-shadow: 0 3px #666
+}
+.create-form button:hover {
+  background-color: rgb(245, 95, 78);
+  transition: 0.5s;
+  box-shadow: 0 3px #666
+}
+.create-form button:active {
+  transition: 0s;
+  transform: translateY(0.5px);
+}
